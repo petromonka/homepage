@@ -1,0 +1,28 @@
+.timeline>li{
+    padding: 0 0 10px 0;
+}
+
+.timeline>li:hover{
+    transition: 0.3s;
+    outline: 2px solid red;
+    outline-offset: 3px;
+    outline-style:solid;
+    transform: translateZ(0);
+}
+
+
+#img{
+    height: 300px;
+    width: 150px;
+    background-size: 100% 100%;
+    background-image:url("/Assets/img/ryuflat.jpg");
+}
+
+
+#img:hover{
+    background-image: url("/Assets/img/ryu.jpg");
+}
+
+#img:after{
+  background-image:url("/Assets/img/ryuflat.jpg");
+}
